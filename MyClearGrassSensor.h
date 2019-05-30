@@ -4,9 +4,6 @@
 
 using namespace esphome;
 
-// 58:2d:34:10:40:06
-// 58:2d:34:10:3f:ee
-
 
 /*
 
@@ -25,17 +22,11 @@ esp32_ble_tracker:
     
 wifi:
   ssid: "VHK30"
-  password: "9zY6*CK2WfxeC*mZ$"
 
 # Enable logging
 logger:
   level: DEBUG
 # Enable Home Assistant API
-api:
-  password: '44f@Q6Z#4sZmY86$gM#'
-
-ota:
-  password: '44f@Q6Z#4sZmY86$gM#'
 
 # Example configuration entry
 switch:
